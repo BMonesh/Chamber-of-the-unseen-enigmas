@@ -21,8 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const usernameInput = document.getElementById("usernameInput");
 
     playButton.addEventListener("click", function () {
-        const username = usernameInput.value.trim(); /// Remove leading/trailing whitespace
-
+        const username = usernameInput.value.trim(); // Remove leading/trailing whitespace
         if (username === "") {
             alert("Please enter your username before playing.");
         } else {
