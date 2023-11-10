@@ -90,7 +90,7 @@ body{
 #input{
     position: fixed;
     visibility:hidden;
-    border-radius: 20px 1px ;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 60px 50px;
     display: flex;
