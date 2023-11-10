@@ -19,7 +19,7 @@ play_button.addEventListener("click", () => {
 })
 
 document.addEventListener("DOMContentLoaded", function () {
-
+    playsound()
     playButton.addEventListener("click", function () {
         const username = usernameInput.value.trim(); // Remove leading/trailing whitespace
         if (username === "") {
@@ -32,10 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function playsound(){
     const backgroundAudio = document.getElementById("background");
-    backgroundAudio.volume = 0.5;
+    backgroundAudio.volume = 0.1;
+    // backgroundAudio.play();
 }
-playsound()
 
 // playButton.addEventListener("click", () => {
 //     localStorage.setItem('user', usernameInput.value);
+// })
+// document.addEventListener("load", () => {
+//     playsound()
 // })
