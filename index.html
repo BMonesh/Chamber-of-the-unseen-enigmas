@@ -7,7 +7,7 @@
     <title>Chamber of the Unseen Enigmas</title>
 </head>
 <body>
-    <div id="input">
+    <div id="input" class="broken-box">
         <h2>Enter your user name </h2>
         <input type="text" placeholder="Username" id="usernameInput"><br>
         <button id="play">Play</button>
@@ -15,7 +15,7 @@
     <div>
         <header id="header"><img src="./assets/chamber-of-the-unseen-enigmas-high-resolution-logo-transparent.png" alt=""></header>
     </div>
-    <div id="play-button">
+    <div id="play-button" class="broken-box">
         <button id="startButton">Enter the Chamber!</button>
     </div>
     <div id="footer">
@@ -27,7 +27,11 @@
             <div id="closeInstructions">Close</div>
         </div>
     </div>
+    <audio id="background" autoplay loop>
+        <source src="./assets/Audio/antony.wav" type="audio/mpeg">
+    </audio>
     <script src="main.js"></script>
-</body>
+    <script src="gameover.js"></script>
+</body> 
 </body>
 </html>
